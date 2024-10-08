@@ -1,4 +1,4 @@
-const { kafka } = require("./client");
+const { kafka, keyTopic } = require("./client");
 const readline = require("readline");
 
 const rl = readline.createInterface({

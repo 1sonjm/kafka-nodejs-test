@@ -1,4 +1,4 @@
-const { kafka, groupId } = require("./client");
+const { kafka, groupId, keyTopic } = require("./client");
 
 async function init() {
   const consumer = kafka.consumer({ groupId: groupId });
