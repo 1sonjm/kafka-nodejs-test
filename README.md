@@ -30,3 +30,7 @@ npm run sub
 
 npm run pub
 테스트 문자 입력
+
+## 참조
+
+https://medium.com/@ketanpradhan/a-practical-guide-to-apache-kafka-with-node-js-code-examples-329cc65be502
