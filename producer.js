@@ -21,7 +21,7 @@ async function init() {
       topic: keyTopic,
       messages: [
         {
-          key: "location-update",
+          key: "chat-messages",
           value: JSON.stringify({ inputText: line, datetime: new Date().getTime }),
         },
       ],

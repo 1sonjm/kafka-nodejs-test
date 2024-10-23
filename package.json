@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server": "node index.js",
     "topic": "node admin.js",
     "pub": "node producer.js",
     "sub": "node consumer.js"
@@ -11,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "kafkajs": "^2.2.4"
+    "express": "^4.21.1",
+    "kafka_test": "file:",
+    "kafkajs": "^2.2.4",
+    "socket.io": "^4.8.0"
   }
 }

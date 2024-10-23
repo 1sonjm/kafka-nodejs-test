@@ -5,5 +5,5 @@ exports.kafka = new Kafka({
   brokers: ["localhost:9092"],
 });
 
-exports.groupId = 'test-group'
-exports.keyTopic = 'new-topic'
+exports.groupId = 'message'
+exports.keyTopic = 'notify'

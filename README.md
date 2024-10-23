@@ -10,25 +10,40 @@ kafka 압푹파일 해제후 C 드라이브 이동
 
 ## zookeeper 실행
 
-cd c:\kafka_2.13-3.8.0
+cd d:\kafka_2.13-3.8.0
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
 ## kafka 실행
 
-cd c:\kafka_2.13-3.8.0
+cd d:\kafka_2.13-3.8.0
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 
-## topic 생성
+## 서버 구동
 
+```command
+npm run server
+```
+
+socket.io + kafka 서버
+
+### topic 생성
+
+```command
 npm run topic
+```
 
-## sub 등록
+### sub 등록
 
+```command
 npm run sub
+```
 
-## pub 테스트
+### pub 테스트
 
+```command
 npm run pub
+```
+
 테스트 문자 입력
 
 ## 참조
