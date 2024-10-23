@@ -40,7 +40,7 @@ const consumer = kafka.consumer({ groupId });
   consumer.run({
     eachMessage: async ({ topic, partition, message }) => {
       const receivedMessage = message.value.toString();
-      loggger(`[kafka >> socket] message - ${groupId}: [${topic}]: PART:${partition}: receivedMessage`);
+      loggger(`[kafka >> socket] message - ${groupId}: [${topic}]: PART:${partition}: ${receivedMessage}`);
 
       // socket 메세지 발송
       io.emit('reciveMessage', receivedMessage);
